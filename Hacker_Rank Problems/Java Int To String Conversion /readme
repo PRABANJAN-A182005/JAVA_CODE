@@ -1,0 +1,6 @@
+Description:
+
+This program reads an integer input n in the range from -100 to 100.
+It converts the integer n to a string, then parses it back to an integer to check whether the original integer is equal to the parsed value. 
+If the integer and the parsed value match, it prints "Good job". Otherwise, it prints "Wrong answer". 
+The program ensures the correctness of the conversion and comparison for integers in the specified range.
