@@ -1,0 +1,17 @@
+Note Description:
+
+This program performs operations on two user-provided strings, A and B. The following operations are executed:
+
+    Calculate Total Length: The combined length of strings A and B is computed and printed.
+    Lexicographical Comparison: Determines if string A is lexicographically larger than string B. Prints "Yes" if A is larger; otherwise, prints "No".
+    Capitalize and Print: The first letter of each string is capitalized, and the transformed strings are printed on a single line, separated by a space.
+
+Input Format:
+
+    Two strings (A and B) composed of lowercase English letters.
+
+Output Format:
+
+    An integer representing the sum of the lengths of A and B.
+    A string, either "Yes" or "No", based on the lexicographical comparison of A and B.
+    The capitalized versions of A and B, separated by a space.
