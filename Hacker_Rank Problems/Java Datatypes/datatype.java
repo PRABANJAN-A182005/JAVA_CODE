@@ -1,50 +1,37 @@
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
 
-class Datatype {
+class Solution {
     public static void main(String[] argh) {
-
-        // Create a Scanner object for input
+        // Create a Scanner object to read input
         Scanner sc = new Scanner(System.in);
-        
+
         // Read the number of test cases
         int t = sc.nextInt();
 
-        // Iterate through each test case
+        // Loop over each test case
         for (int i = 0; i < t; i++) {
-
             try {
-                // Read the long value input
-                long x = sc.nextLong();
-                
-                // Print that the number can be fitted in different data types
-                System.out.println(x + " can be fitted in:");
-                
-                // Condition for byte: Check if the value fits in a byte (-128 to 127)
-                if (x >= -128 && x <= 127) {
+                // Read the number (it can be arbitrarily large)
+                long n = sc.nextLong();
+                System.out.println(n + " can be fitted in:");
+
+                // Check if the number can fit in each primitive data type, in order
+                if (n >= -128 && n <= 127) {
                     System.out.println("* byte");
                 }
-
-                // Condition for short: Check if the value fits in a short (-32,768 to 32,767)
-                if (x >= -32000 && x <= 32000) {
+                if (n >= -32768 && n <= 32767) {
                     System.out.println("* short");
                 }
-
-                // Condition for int: Check if the value fits in an int (-2,000,000,000 to 2,000,000,000)
-                if (x >= -2000000000 && x <= 2000000000) {
+                if (n >= -2147483648L && n <= 2147483647L) {
                     System.out.println("* int");
                 }
-
-                // Condition for long: Check if the value fits in a long (-9223372036854775808 to 9223372036854775807)
-                if (x >= -9223372036854775807L && x <= 9223372036854775807L) {
+                if (n >= -9223372036854775808L && n <= 9223372036854775807L) {
                     System.out.println("* long");
                 }
-
             } catch (Exception e) {
-                // If an exception occurs (e.g., the input is not a valid number), print this message
+                // Handle the case where the input is invalid or too large to fit in any primitive
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
-
         }
     }
 }
