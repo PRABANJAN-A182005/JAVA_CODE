@@ -15,7 +15,7 @@ public class intToString {
             // Convert the integer to a string
             String s = String.valueOf(n);
 
-            // Check if the string converted back to integer equals the original integer
+            // Check if the string converted back to integer equals the original integer "this line is defined by hackerRank"
             if (n == Integer.parseInt(s)) {
                 System.out.println("Good job");
             } else {
