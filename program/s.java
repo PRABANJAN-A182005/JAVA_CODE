@@ -1,3 +1,4 @@
+//program for to find strongnumber
 import java.util.Scanner;
 //function for recursion
 public class s{
