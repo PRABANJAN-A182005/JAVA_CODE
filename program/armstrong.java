@@ -5,6 +5,7 @@ public class armstrong {
     public static boolean check(int a) {
         int c = 0;
         int d = a;
+        //using while for condition for check armstrong
         while (d!=0) {
             if (d == 0) {
                 break;
@@ -13,7 +14,7 @@ public class armstrong {
                 c = c + (b * b * b);
                 d = d / 10;
             }
-        }
+        }//return true or false when the condition executed
         if (c == a) {
             return true;
         } else {
