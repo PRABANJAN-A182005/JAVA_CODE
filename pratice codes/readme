@@ -1,0 +1,94 @@
+
+//Practice Problem Statements:
+1. Check if a Character is a Vowel or Consonant:
+   Given a character, determine if it is a vowel (a, e, i, o, u) or a consonant using conditional statements.
+
+2. Find the biggest among two numbers.?
+
+3. Find the number belonging to which group above 50, between 40 to 50, less than 40.?
+
+4. Write a Program to check the given number is divisible by both 3&4 if it is so print "Good Morning".
+If a number is divisible by only 4 but not 3 then print "Good Afternoon",
+If it is divisible by only 3 but not 4 then print "Good Evening" otherwise print "Good Night".?
+
+5. Java program to check if a given year is a leap year or not.?
+
+6. Write a program that takes a score as input and prints out the corresponding grade according to the
+following grading scheme:
+ 90 or above: A
+ 80-89: B
+ 70-79: C
+ 60-69: D
+ Below 60: F.?
+
+7. Develop a simple program to calculation to perform an operation we have four choices if you choose
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+
+8. Shraddha Kapoor’s professor suggested that she study hard and prepare well for the lesson on seasons. If her
+professor says month then, she has to tell the name of the season corresponding to that month. So write the
+program to get the solution to the above task?
+ March to May – Spring Season
+ June to August – Summer Season
+ September to November – Autumn Season
+ December to February – Winter Season
+Note: The entered month should be in the range of 1 to 12. If the user enters a month less than 1 or greater
+than 12 then the message “Invalid Month Entered” should get displayed.
+
+//For loop problems
+1. Write a program to print numbers from 1 to N using a for
+   loop.
+
+2. Write a program to find the sum of the first N natural numbers using a for loop.
+
+3. Write a program to print the multiplication table of a number N
+using a for loop.
+
+4. Write a program to find the factorial of a given number using a
+for loop.
+
+5. Write a program to generate the Fibonacci series up to a certain number of terms n.?
+
+6. Write a program to check the given number is prime or not.?
+
+7. Write a program to print all prime numbers between
+    1 and N using a for loop.
+
+//While Loop Problems:
+
+1. Write a program to print numbers from 1 to N using a while loop.
+
+2. Write a program to calculate the sum of digits of a given number using a while loop.
+
+3. Write a program to find the largest digit in a given number using a while loop.
+
+4. Write a program to count how many even numbers are there between 1 and N using a while loop.
+
+//Do-While Loop Problems:
+
+1. Write a program to print numbers from 1 to N using a do-while loop.
+
+2. Write a program to find the sum of digits of a number using a do-while loop.
+
+3. Write a program to calculate the power of a number (base raised to the exponent) using a do-while loop.
+
+//other programs
+
+1. Write a Java method that takes an integer as input and returns true if it is a prime number,
+otherwise returns false.
+
+2. Write a Java method to calculate the factorial of a given number.
+
+3. Write a Java method to generate the Fibonacci series up to a specified number of terms.
+
+4. Write a Java method to calculate the power of a number raised to an exponent.
+
+5. Write a Java method to calculate the greatest common divisor (GCD) of two numbers.
+
+6. Write a Java method to calculate the least common multiple (LCM) of two numbers.
+
+7. Write a Java method to check if a given number is an Armstrong number.
+
+8. Write a Java method to check if a given number is a perfect number.
