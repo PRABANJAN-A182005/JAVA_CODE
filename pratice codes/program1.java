@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class program1 {
 
     public static String check(Character input) {
-
+        //check vowels and consonant using for and if condition
         Character[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
         for (int i = 0; i < vowels.length; i++) {
             if (input.equals(vowels[i])) {
