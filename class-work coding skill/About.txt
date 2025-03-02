@@ -1,0 +1,19 @@
+1. Calculate CGST and SGST for a product and print the total price to pay {CGST=9%, SGST=11%}
+2.Write a program to read the marks of 5 subjects through the keyboard Find out the
+aggregate and percentage of marks obtained by the student Assume maximum marks
+that can be obtained by a student in each subject as 100
+3.Write a program to read a four digit number through the keyboard and calculate the sum
+of its digits
+4.An ATM contains Indian currency notes of 100 500 and 1000 To withdraw cash from this
+ATM, the user has to enter the number of notes he/she wants of each currency, i.e., of 100
+500 and 1000 Write a program to calculate the total amount withdrawn by the person
+from the ATM in rupees
+5.Write a program to calculate age based on input of date, month and year
+6. Collect three run time input from user Add together the first two numbers and then multiply
+this total by the third Display the answer as “The answer is :“[Answer]
+7.Program to print only the added fraction of any two number {Input: 2.356, 3.5678 Output:
+0.9238}
+8.Program to calculate hours, minutes and seconds for a given input days
+9.Program to print the unit digit of a given number Input: 1567, Output: 7
+10.Program to print the MSB digit of given number {Input :1567, Output: 1}
+11.Program to calculate the sum from ‘M number to ‘N number.{Input M= 5 N= 10 ,Output =45}
